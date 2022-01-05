@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00000080, transparent),url(image/sun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.nav{
+    /* padding: 10px; */
+    margin: auto;
+    
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+.nav ul li a{
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    transition: 0.1s;
+}
+
+.nav ul li a:hover{
+    color: rgb(191, 191, 191);
+    border-bottom: 1px solid red;
+}
+
+.icon{
+    padding: 0 20px;
+    position:absolute;
+    margin-top: 12px;
+    font-size: 25px;
+    color: red;
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    /* border-bottom: 0.5px solid white; */
+}
+
+.main-container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text1{
+    width: 100%;
+}
+.text1 h2{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-style: dashed;
+    margin-top: 100px;
+    font-size: 40px;
+    color: white;
+    padding: 40px;
+    margin: 0 auto;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+.text1 p{
+    color: rgb(160, 160, 160);
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 90%;
+    padding: 10px;
+}
+
+.text1 a{
+    width: 100%;
+    display: list-item;
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    background: red;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 40px;
+    transition: 0.6s;
+}
+.text1 a:hover{
+    color: rgb(154, 154, 154);
+    background: rgb(152, 0, 0);
+    border: 1px solid rgb(152, 0, 0);
+}
+
+/* Social Media Style */
+.social-media{
+    width: 100%;
+    display: inline-block;
+}
+.main{
+    border-bottom: 2px solid gray;
+    border-bottom-style: dashed;
+    text-align: center;
+    padding: 40px 30px;
+    margin: 10px;
+}
+
+.main a{
+    /* border-left: 1px solid black; */
+    border-radius: 40px;
+    padding: 20px;
+    width: 200px;
+}
+
+
+.text2{
+    width: 100%;
+    height: 400px;
+    background: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50%;
+    justify-content: center;
+    font-size: 30px;
+}
+.text2 p{
+    flex: 1;
+    text-align: justify;  
+    padding: 70px;
+    font-size: 25px;
+}
+
+.text2 span{
+    color: red;
+}
+
+.text2 section img{
+    width: 150px;
+    background: white;
+}
+
+
+/* Main Resume */
+
+.main-resume{
+    padding: 70px;
+    border-top: 2px solid black;
+    display: flex;
+    /* height: 400px; */
+    justify-content: center;
+    margin: 0;
+    /* width: 100%; */
+    background: rgb(36, 36, 36);
+}
+.resume{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    flex: 3;
+    order: 1 2 3;
+}
+
+h2{
+    color: red;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.resume ul{
+    display: inline;
+    text-align: center;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.resume ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    height: 100px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+
+/* Footer Copyright */
+
+.copyright-footer{
+    display: flex;
+    padding: 40px 80px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.copyright-footer span{
+    padding: 0;
+    margin: 5px;
+    width: 1000pc;
+}
+
+.copyright-footer h4{
+    color: red;
+}
+
+.input-text{
+    color: black;
+}
+
+.input-text input{
+    padding: 13px 11px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 40px;
+    width: 200px;
+    outline: none;
+    text-decoration: none;
+
+}
+
+.input-text input:focus{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: none;
+}
+
+.sub{
+    position: relative;
+    display: inline;
+}
+
+.sub input{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    width: 140px;
+    background: none;
+    border: 1px solid red;
+    color: red;
+    transition: 0.7s;
+}
+
+.sub input:hover{
+    background: red;
+    color: white;
+}
+
+@media screen and (max-width: 1180px)
+{
+    .nav{
+        display: block;
+        padding: 1.6px;
+        margin: 1.2px;
+    }
+
+    .nav ul{
+        margin-top: 0;
+        display:inline-block;
+        padding: 1px;
+        margin: 2px 0px;
+    }
+    .nav ul li a{
+        font-size: 2px;
+        padding:10px;
+        margin: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+        margin: 4px;
+        color: rgb(232, 232, 232);
+        transition: 0.5s;
+        border-radius: 40px;
+    }
+    .nav ul li a:hover{
+        background-color: rgb(253, 0, 0);
+        border: 1px;
+        border-radius: 40px red;
+    }
+
+    .icon{
+        font-size: 6px;
+        color: rgb(255, 0, 0);
+    }
+
+    .text1{
+        display: inline-block;
+        display: grid;
+        place-items: center;
+    }
+
+    .text1 p{
+        font-size: 10px;
+        position:sticky;
+        bottom: 25%;
+    }
+
+    .text1 h2{
+        font-size: 15px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 390px;
+        border-color: rgb(158, 7, 7);
+        /* margin-top: 30px; */
+    }
+
+    .text1 a{
+        padding: 7px;
+        margin: 10px auto;
+        position: relative;
+        position: absolute;
+        bottom: 70%;
+        font-size: 6px;
+    }
+
+    .text2{
+        border-top: 3px solid black;
+    }
+
+    .text2 p{
+        font-size: 14px;
+        justify-content: center;
+        justify-self: normal;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 15px 20px; 
+        text-align: justify;
+    }
+
+    .text2 section img{
+        width: 135px;
+        border: 3px solid red;
+        background: rgb(255, 255, 255);
+    }
+
+    .main{
+        position: relative;
+        display: block;
+        
+    }
+
+    .main-resume{
+        position: absolute;
+        position: relative;
+        border-top: 3px solid black;
+        align-content: center;
+        overflow: hidden;
+        height: 600px;
+        line-height: 1.2rem;
+    }
+
+    .resume h2{
+        font-size: 5px;
+        position: relative;
+        display: inline-block;
+    }
+    .resume ul{
+        position: grid;
+        place-items: center;
+        /* right: 20%; */
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+    }
+    .resume ul li a{
+        font-size: 5px;
+        list-style: none;
+        margin: 2px;
+        text-align: center;
+        display: relative;
+        color: white;
+        text-decoration: none;
+        outline: none;
+        line-height: 30px;
+    }
+    .sub input{
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .input-text input{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .input-text input:focus{
+        background: rgb(233, 233, 233);
+        border: none;
+    }
+}
