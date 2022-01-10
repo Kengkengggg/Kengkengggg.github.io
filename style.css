@@ -303,7 +303,8 @@ h2 {
   .text1 p {
     font-size: 10px;
     position: sticky;
-    bottom: 25%;
+    position: fixed;
+    bottom: 80%;
   }
 
   .text1 h2 {
@@ -400,21 +401,34 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
+  label {
+    font-size: 15px;
+  }
   /* Navigation */
   .nav ul li a {
     font-size: 5px;
-    padding: 5px;
+    padding: 1.2px;
+  }
+
+  .main-container {
+    width: 80%;
+    position: absolute;
+    position: flex;
+    align-items: center;
+    top: 45%;
   }
 
   /* Part of Navigation */
   .text1 p {
-    position: grid;
-    place-content: center;
+    font-size: 10px;
+    position: sticky;
+    position: fixed;
+    bottom: 80%;
   }
-
   /* Picture and bio */
+
   .text2 p {
-    font-size: 8px;
+    font-size: 10px;
     text-align: center;
   }
 
@@ -439,8 +453,8 @@ h2 {
     font-size: 9px;
   }
 
-  .input-text {
-    padding: 10px;
-    margin: 10px;
+  .input-text input {
+    padding: 6px;
+    margin: 5px;
   }
 }
