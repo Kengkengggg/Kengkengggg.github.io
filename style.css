@@ -406,6 +406,12 @@ h2 {
     padding: 5px;
   }
 
+  /* Part of Navigation */
+  .text1 p {
+    position: grid;
+    place-content: center;
+  }
+
   /* Picture and bio */
   .text2 p {
     font-size: 8px;
