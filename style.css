@@ -415,10 +415,10 @@ h2 {
     position: absolute;
     position: flex;
     align-items: center;
-    top: 55%;
+    top: 45%;
   }
 
-  .main-resume{
+  .main-resume {
     border-top: 1px solid black;
   }
 
