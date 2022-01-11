@@ -418,6 +418,10 @@ h2 {
     top: 55%;
   }
 
+  .main-resume{
+    border-top: 1px solid black;
+  }
+
   /* Part of Navigation */
   .text1 p {
     font-size: 10px;
@@ -434,6 +438,10 @@ h2 {
 
   .text2 section img {
     width: 100px;
+  }
+
+  .text2 {
+    border: none;
   }
 
   /* Resume */
