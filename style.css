@@ -415,7 +415,7 @@ h2 {
     position: absolute;
     position: flex;
     align-items: center;
-    top: 45%;
+    top: 50%;
   }
 
   .main-resume {
@@ -433,11 +433,12 @@ h2 {
 
   .text2 p {
     font-size: 10px;
-    text-align: center;
+    text-align: justify;
   }
 
   .text2 section img {
     width: 100px;
+    border: 1px solid red;
   }
 
   .text2 {
