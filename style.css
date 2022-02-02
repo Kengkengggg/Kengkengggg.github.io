@@ -258,7 +258,7 @@ h2 {
   color: white;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1170px) {
   .nav {
     display: block;
     padding: 1.6px;
@@ -272,7 +272,7 @@ h2 {
     margin: 2px 0px;
   }
   .nav ul li a {
-    font-size: 10px;
+    font-size: 8px;
     padding: 10px;
     margin: 5px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -406,20 +406,21 @@ h2 {
   }
   /* Navigation */
   .nav ul li a {
-    font-size: 5px;
+    font-size: 7px;
     padding: 1.2px;
   }
 
   .main-container {
-    width: 80%;
+    width: 70%;
     position: absolute;
     position: flex;
     align-items: center;
-    top: 50%;
+    top: 53%;
   }
 
   .main-resume {
     border-top: 1px solid black;
+    height: 900px;
   }
 
   /* Part of Navigation */
@@ -430,7 +431,9 @@ h2 {
     bottom: 80%;
   }
   /* Picture and bio */
-
+  .text2 {
+    height: 300px;
+  }
   .text2 p {
     font-size: 10px;
     text-align: justify;
@@ -438,7 +441,9 @@ h2 {
 
   .text2 section img {
     width: 100px;
-    border: 1px solid red;
+    height: 150px
+    border: 1px black;
+    border-radius: 20px;
   }
 
   .text2 {
@@ -451,6 +456,19 @@ h2 {
     position: flex;
     align-content: center;
     align-items: center;
+  }
+
+  .resume ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+
+  .resume ul li a{
+    display: inline-block;
+    /* position: absolute; */
+    line-height: 2rem;
+  
   }
 
   /* Footer */
